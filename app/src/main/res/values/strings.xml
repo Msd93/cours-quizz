@@ -1,0 +1,107 @@
+<resources>
+    <string name="app_name">Coder Le Futur</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="Java">Java Tutorial</string>
+    <string name="PHP">PHP Tutorial</string>
+    <string name="Cpp">C++ Tutorial</string>
+    <string name="HTML">HTML Tutorial</string>
+    <string name="C">C Tutorial</string>
+    <string name="JS">Java script</string>
+
+
+    <!--Les cours java-->
+    <string name="Chap1_Java">Introduction à Java</string>
+    <string name="Chap2_Java">Technique de base </string>
+    <string name="Chap3_Java">Types primitifs</string>
+    <string name="Chap4_Java">Structures de contrôle</string>
+    <string name="Chap5_Java">POO</string>
+    <string name="Chap6_Java">Les tableaux</string>
+    <string name="Chap7_Java">Chaines de caractères</string>
+    <string name="Chap8_Java">Héritage</string>
+    <!--Les cours php-->
+    <string name="Chap1_PHP">Introduction à php</string>
+    <string name="Chap2_PHP">Exemple de script</string>
+    <string name="Chap3_PHP">Syntaxe de php</string>
+    <string name="Chap4_PHP">POO avec php</string>
+    <string name="Chap5_PHP">Configuration php_ini</string>
+    <string name="Chap6_PHP">Concepts fondamentaux</string>
+    <string name="Chap7_PHP">Manip de données</string>
+    <string name="Chap8_PHP">Exple application</string>
+
+    <!--Les cours html-->
+    <string name="Chap1_HTML">Introduction à html</string>
+    <string name="Chap2_HTML">Base du html</string>
+    <string name="Chap3_HTML">CSS</string>
+    <string name="Chap4_HTML">Formatage</string>
+    <string name="Chap5_HTML">Modèles des boites</string>
+    <string name="Chap6_HTML">Mise en page</string>
+    <string name="Chap7_HTML">Fonds et apparences</string>
+    <string name="Chap8_HTML">Tableaux</string>
+    <!--Les cours C-->
+    <string name="Chap1_C">Introduction en C</string>
+    <string name="Chap2_C">Tableau et srtructure</string>
+    <string name="Chap3_C">Pointeur</string>
+    <string name="Chap4_C">Les fonctions</string>
+    <string name="Chap5_C">Les fichiers</string>
+    <string name="Chap6_C">Liste chaînées</string>
+    <string name="Chap7_C">Récursivité</string>
+    <string name="Chap8_C">Pile et file</string>
+    <!--Les cours C++-->
+    <string name="Chap1_Cpp">Introduction à cpp</string>
+    <string name="Chap2_Cpp">Variable et type</string>
+    <string name="Chap3_Cpp">Environnement</string>
+    <string name="Chap4_Cpp">Les intructions</string>
+    <string name="Chap5_Cpp">Texte cpp et portee</string>
+    <string name="Chap6_Cpp">Les fonctions cpp</string>
+    <string name="Chap7_Cpp">Code produit</string>
+    <string name="Chap8_Cpp">Types contruits</string>
+    <!--Les cours JS-->
+    <string name="Chap1_JS">Introduction à JS</string>
+    <string name="Chap2_JS">Fondements JS</string>
+    <string name="Chap3_JS">POO JS</string>
+    <string name="Chap4_JS">DOM JS</string>
+    <string name="Chap5_JS">AJAX</string>
+    <string name="Chap6_JS">Prototype</string>
+    <string name="Chap7_JS">DOJO JS</string>
+    <string name="Chap8_JS">Interface (web)</string>
+
+
+    <string name="niveau1">Niveau 1</string>
+    <string name="niveau2">Niveau 2</string>
+    <string name="niveau3">Niveau 3</string>
+
+
+    <string name="Quizz">Quizz</string>
+    <string name="quizzJava">Quizz Java</string>
+    <string name="date">Date :</string>
+    <string name="scorequizz">Score :</string>
+    <string name="imagecours">Image Cours</string>
+    <string name="Partie">Veuillez cliquer sur le button ci-dessous pour effectuer une partie !</string>
+    <string name="nomfavoricours">Favoris cours</string>
+    <string name="AF">Ajouter Favori</string>
+    <string name="supprimer">supprimer</string>
+    <string name="VosCours">Vous n\'avez pas encore choisi vos cours favoris !</string>
+    <string name="activite">Frequentation</string>
+    <string name="agenda">Rappel</string>
+    <string name="niveau4">Niveau 4</string>
+    <string name="niveau5">Niveau 5</string>
+    <string name="niveau6">Niveau 6</string>
+    <string name="niveau7">Niveau 7</string>
+    <string name="niveau8">Niveau 8</string>
+    <string name="codeArt">Cod\'Art </string>
+    <string name="code">Le codage c\'est de l\'art</string>
+    <string name="apropos">
+        "Cette application a éte mise en oeuvre dans le cadre d\'un projet academique.
+        Elle permet de consulter des cours en programmation.
+        Elle propose aussi des quizz pour tester le niveau de l\'apprenant.
+        L\'aplication dispose d\'un systeme qui permet de planifier des cours.\n\n"
+
+        "Ce projet a été realisé par\n\n"
+        "Mamadou Seydou Diallo diallodiery301@gmail.com et \n\n "
+        "Alioune Bada Ndoye abadaa9518@gmail.com\n\n"
+        "CopyRight Cod\'Art 2018"
+    </string>
+
+
+</resources>

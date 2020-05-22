@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:background="@color/white">
+
+
+    <ImageView
+        android:id="@+id/img_freq"
+        android:elevation="20dp"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_weight="1"
+        android:src="@drawable/c_c"
+        android:contentDescription="dddd" />
+
+    <RelativeLayout
+        android:elevation="20dp"
+        android:layout_width="232dp"
+        android:layout_height="60dp"
+        android:background="@color/white">
+
+        <ImageButton
+            android:id="@+id/imageButton_Delete"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:background="@color/white"
+            android:src="@drawable/ic_delete_black_24dp" />
+
+        <TextView
+            android:id="@+id/date_freq"
+            android:layout_width="163dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="5dp"
+            android:text="string/ine"
+            android:textColor="#000"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/module_freq"
+            android:layout_width="167dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_weight="1"
+            android:paddingLeft="5dp"
+            android:text="stringprenom"
+            android:textColor="#000"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/duree_freq"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_weight="1"
+            android:paddingLeft="5dp"
+            android:text="string/nom"
+            android:textColor="#000"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+</LinearLayout>

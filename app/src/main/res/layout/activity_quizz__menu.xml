@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".quizz.Quizz_Menu">
+
+    <ImageView
+        android:id="@+id/img_sound"
+        android:layout_width="50dp"
+        android:layout_height="41dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="14dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="12dp"
+        android:background="@drawable/son"/>
+
+    <TextView
+        android:id="@+id/btnClose"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignBottom="@+id/img_sound"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="end"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/cerclebackground"
+        android:gravity="center"
+        android:text="X"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        tools:ignore="RtlCompat,UnknownId" />
+
+    <Button
+        android:layout_margin="5dp"
+        android:id="@+id/answer4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="11dp"
+        android:text="Button"
+        android:background="@drawable/buttonstyle"
+        android:textStyle="bold"/>
+
+    <Button
+        android:layout_margin="5dp"
+        android:id="@+id/answer3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/answer4"
+        android:layout_centerHorizontal="true"
+        android:text="Button"
+        android:background="@drawable/buttonstyle"
+        android:textStyle="bold"/>
+
+    <Button
+        android:layout_margin="5dp"
+        android:id="@+id/answer2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/answer3"
+        android:layout_centerHorizontal="true"
+        android:text="Button"
+        android:background="@drawable/buttonstyle"
+        android:textStyle="bold"/>
+
+    <Button
+        android:layout_margin="5dp"
+        android:id="@+id/answer1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/answer2"
+        android:layout_centerHorizontal="true"
+        android:text="Button"
+        android:background="@drawable/buttonstyle"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/img_sound"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        tools:ignore="RtlCompat" />
+
+    <TextView
+        android:background="@color/dark_red"
+        android:id="@+id/question"
+        android:layout_width="match_parent"
+        android:layout_height="213dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="59dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+         />
+
+    <jp.shts.android.storiesprogressview.StoriesProgressView
+        android:id="@+id/stories"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/green"
+        android:layout_alignParentLeft="true">
+
+    </jp.shts.android.storiesprogressview.StoriesProgressView>
+
+</RelativeLayout>

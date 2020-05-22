@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/cours" android:title="Cours" android:icon="@drawable/cours"></item>
+    <item android:id="@+id/favoriscours" android:title="Favoris cours" android:icon="@drawable/favoris"></item>
+    <item android:id="@+id/rappel" android:title="Rappel" android:icon="@drawable/rappel"></item>
+    <item android:id="@+id/quizz" android:title="Quizz" android:icon="@drawable/quizz"></item>
+    <item android:id="@+id/activite" android:title="Activite" android:icon="@drawable/activite"></item>
+    <item android:id="@+id/parametre" android:title="A propos" android:icon="@drawable/help"></item>
+</menu>

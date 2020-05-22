@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawerlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuApp">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:background="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!----> Contient l'image du menu
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="@dimen/margin"
+            android:background="@drawable/sco1"
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+
+        <!--Contient les 2 premiers cours-->
+        <LinearLayout
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:gravity="center"
+            android:clipToPadding="false"
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/margin"
+            >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <com.mikhaellopez.circularimageview.CircularImageView
+                    android:id="@+id/circleviewJava"
+                    android:layout_width="@dimen/sizewithcours"
+                    android:layout_height="@dimen/sizeheightcours"
+                    android:src="@drawable/c_java"
+                    app:civ_border_color="@color/colorPrimary"
+                    app:civ_border_width="2dp"
+                    app:civ_shadow="true"
+                    app:civ_shadow_color="#000000"
+                    app:civ_shadow_radius="10" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Java"
+                    android:textSize="20dp"
+                    android:layout_marginRight="20dp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <com.mikhaellopez.circularimageview.CircularImageView
+                    android:id="@+id/circleviewPHP"
+                    android:layout_width="@dimen/sizewithcours"
+                    android:layout_height="@dimen/sizeheightcours"
+                    android:src="@drawable/c_php"
+                    app:civ_border_color="@color/colorPrimary"
+                    app:civ_border_width="2dp"
+                    app:civ_shadow="true"
+                    app:civ_shadow_color="#000000"
+                    app:civ_shadow_radius="10" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/PHP"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="20dp"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <!--Contient le 3e et le 4e cours-->
+        <LinearLayout
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:gravity="center"
+            android:clipToPadding="false"
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/margin"
+            >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <com.mikhaellopez.circularimageview.CircularImageView
+                    android:id="@+id/circleviewCpp"
+                    android:layout_width="@dimen/sizewithcours"
+                    android:layout_height="@dimen/sizeheightcours"
+                    android:src="@drawable/c_c__"
+                    app:civ_border_color="@color/colorPrimary"
+                    app:civ_border_width="2dp"
+                    app:civ_shadow="true"
+                    app:civ_shadow_color="#000000"
+                    app:civ_shadow_radius="10" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Cpp"
+                    android:textSize="20dp"
+                    android:layout_marginRight="20dp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <com.mikhaellopez.circularimageview.CircularImageView
+                    android:id="@+id/circleviewHTML"
+                    android:layout_width="@dimen/sizewithcours"
+                    android:layout_height="@dimen/sizeheightcours"
+                    android:src="@drawable/c_html"
+                    app:civ_border_color="@color/colorPrimary"
+                    app:civ_border_width="2dp"
+                    app:civ_shadow="true"
+                    app:civ_shadow_color="#000000"
+                    app:civ_shadow_radius="10" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/HTML"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="20dp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!--Contient le 5e et le 6e cours-->
+        <LinearLayout
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:gravity="center"
+            android:clipToPadding="false"
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/margin"
+            >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <com.mikhaellopez.circularimageview.CircularImageView
+                    android:id="@+id/circleviewJS"
+                    android:layout_width="@dimen/sizewithcours"
+                    android:layout_height="@dimen/sizeheightcours"
+                    android:src="@drawable/c_js"
+                    app:civ_border_color="@color/colorPrimary"
+                    app:civ_border_width="2dp"
+                    app:civ_shadow="true"
+                    app:civ_shadow_color="#000000"
+                    app:civ_shadow_radius="10" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/JS"
+                    android:textSize="20dp"
+                    android:layout_marginRight="20dp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <com.mikhaellopez.circularimageview.CircularImageView
+                    android:id="@+id/circleviewC"
+                    android:layout_width="@dimen/sizewithcours"
+                    android:layout_height="@dimen/sizeheightcours"
+                    android:src="@drawable/c_c"
+                    app:civ_border_color="@color/colorPrimary"
+                    app:civ_border_width="2dp"
+                    app:civ_shadow="true"
+                    app:civ_shadow_color="#000000"
+                    app:civ_shadow_radius="10" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/C"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="20dp"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/navigationView"
+        app:headerLayout="@layout/header"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        app:itemTextColor="@color/black"
+        app:itemIconTint="@color/colorPrimary"
+        app:menu="@menu/drawermenu"
+        android:layout_gravity="start"></android.support.design.widget.NavigationView>
+
+
+</android.support.v4.widget.DrawerLayout>

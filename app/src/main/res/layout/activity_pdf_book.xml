@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pdf_book">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="Prev"
+        android:onClick="prevPage"/>
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/button"
+        android:layout_toEndOf="@id/button"
+        android:layout_toRightOf="@id/button"
+        android:text="Next"
+        android:onClick="nextPage"/>
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@id/button2"
+        android:layout_toRightOf="@id/button2"
+        android:text="+"
+        android:onClick="zoomIn"/>
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@id/button3"
+        android:layout_toRightOf="@id/button3"
+        android:text="-"
+        android:onClick="zoomOut"/>
+
+
+    <com.github.barteksc.pdfviewer.PDFView
+        android:id="@+id/pdfbook"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:onClick="ajouterModuleFavori"
+            android:id="@+id/btn_add_favori"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:text="@string/AF"
+            android:layout_alignParentRight="true" />
+    </com.github.barteksc.pdfviewer.PDFView>
+</RelativeLayout>

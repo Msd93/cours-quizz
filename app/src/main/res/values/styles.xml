@@ -1,0 +1,55 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">#3F51B5</item>
+        <item name="android:windowAnimationStyle">@style/CustomActivityAnimation</item>
+
+        <item name="android:windowEnterTransition" tools:targetApi="lollipop">@transition/transition_enter</item>
+        <item name="android:windowExitTransition" tools:targetApi="lollipop">@transition/transition_slide_left_fade_out</item>
+
+        <item name="android:windowReenterTransition" tools:targetApi="lollipop">@transition/transition_reenter</item>
+        <item name="android:windowReturnTransition" tools:targetApi="lollipop">@transition/transition_return</item>
+
+        <item name="android:windowAllowEnterTransitionOverlap" tools:targetApi="lollipop">false</item>
+        <item name="android:windowAllowReturnTransitionOverlap" tools:targetApi="lollipop">false</item>
+    </style>
+
+
+    <!-- theme pur les popup de l'application. -->
+    <style name="AppTheme.CustomTheme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+    <style name="CustomActivityAnimation" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_in_right</item>
+        <item name="android:activityOpenExitAnimation">@anim/slide_out_left</item>
+        <item name="android:activityCloseEnterAnimation">@anim/slide_in_left</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_out_right</item>
+    </style>
+
+    <style name="exampleToast">
+        <item name="colorBackground">#008000</item>
+        <item name="textColor">#FFF</item>
+        <item name="strokeColor">#000</item>
+        <item name="strokeWidth">3dp</item>
+        <item name="length">SHORT</item>
+        <item name="cornerRadius">3dp</item>
+    </style>
+    <style name="niveauToast">
+        <item name="colorBackground">#3F51B5</item>
+        <item name="textColor">#FFF</item>
+        <item name="strokeColor">#000</item>
+        <item name="strokeWidth">3dp</item>
+        <item name="length">SHORT</item>
+        <item name="cornerRadius">3dp</item>
+    </style>
+
+</resources>

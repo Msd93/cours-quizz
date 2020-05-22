@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="sn.project.android.coderlefutur">
+
+    <uses-permission android:name="android.permission.SET_ALARM" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo_1"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MenuApp"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".authentification.GoogleSign"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".cours.Activity_Java"
+            android:label="@string/Java"
+            android:parentActivityName=".MenuApp"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MenuApp" />
+        </activity>
+        <activity
+            android:name=".cours.Activity_PHP"
+            android:label="@string/PHP"
+            android:parentActivityName=".MenuApp"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MenuApp" />
+        </activity>
+        <activity
+            android:name=".cours.Activity_CPlusPlus"
+            android:label="@string/Cpp"
+            android:parentActivityName=".MenuApp"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MenuApp" />
+        </activity>
+        <activity
+            android:name=".cours.Activity_Html"
+            android:label="@string/HTML"
+            android:parentActivityName=".MenuApp"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MenuApp" />
+        </activity>
+        <activity
+            android:name=".cours.Activity_JS"
+            android:label="@string/JS"
+            android:parentActivityName=".MenuApp"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MenuApp" />
+        </activity>
+        <activity
+            android:name=".cours.Activity_C"
+            android:label="@string/C"
+            android:parentActivityName=".MenuApp"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MenuApp" />
+        </activity>
+        <activity
+            android:name=".agenda.Acceuil_Agenda"
+            android:label="@string/agenda"
+            android:parentActivityName=".MenuApp"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MenuApp" />
+        </activity>
+        <activity
+            android:name=".agenda.Date_Agenda"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".agenda.ListCours_Agenda"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".quizz.Quizz_Detail"
+            android:label="@string/Quizz"
+            android:parentActivityName=".MenuApp"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MenuApp" />
+        </activity>
+        <activity
+            android:name=".quizz.Quizz_Menu"
+            android:label="@string/quizzJava"
+            android:parentActivityName=".quizz.Quizz_Detail"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".quizz.Quizz_Detail" />
+        </activity>
+        <activity
+            android:name=".quizz.Quizz_Confirm"
+            android:label="Confirmation"
+            android:parentActivityName=".quizz.Quizz_Detail"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".quizz.Quizz_Detail" />
+        </activity>
+        <activity
+            android:name=".cours.Activity_Favori_Cours"
+            android:label="@string/nomfavoricours"
+            android:parentActivityName=".MenuApp"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MenuApp" />
+        </activity>
+        <activity
+            android:name=".Pdf_book"
+            android:parentActivityName=".cours.Activity_Java"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".cours.Activity_Java" />
+        </activity>
+
+        <!--  -->
+        <receiver android:name=".alarm.Notifcation_receiver_1" />
+        <receiver android:name=".alarm.Notifcation_receiver_2" />
+        <receiver android:name=".alarm.Notifcation_receiver_3" />
+        <receiver android:name=".alarm.Notifcation_receiver_4" />
+        <receiver android:name=".alarm.Notifcation_receiver_5" />
+        <receiver android:name=".alarm.Notifcation_receiver_6" />
+        <receiver android:name=".alarm.Notifcation_receiver_7" />
+
+        <activity
+            android:name=".report.Frequentation"
+            android:label="@string/activite"
+            android:parentActivityName=".MenuApp">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MenuApp" />
+        </activity>
+        <activity android:name=".Apropos"></activity>
+    </application>
+
+</manifest>
